@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Майнкрафт</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <section class="sect1">
+        <div class="div1">
+            <div class="log_in">
+                <a href=""> <font size='4' color='white'>Войти</font></a>
+            </div>
+            <div class="activate_code">
+                <a href=""> <font size='4' color='white'>Активировать код</font></a>
+            </div>
+        </div>  
+    </section>
+    <section class="sect2">
+        <div class="menu1"> 
+            <div class="logo_div1">
+                <img src="img/logo.png"> 
+            </div>
+            <div class="minecraft">
+                <div class="m1">
+                    <img src="img/grassblock.png">
+                    <h2>Про игру</h2>
+                </div>
+                <div class="m2">
+                    <img src="img/chest.png">
+                    <h2>Игровые ресурсы</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sect3">
+        <div class="div2">
+            <img src="img/world.png" width="700" height="450">
+        </div>
+        <div class="about_text">
+            <h2 class="text">
+                <font size="6">Minecraft</font> <font size="5"> - это строительная игра в жанре "песочница", разработанная компанией Mojang Studios и разделённая 
+                    на два издания: Java и Bedrock.
+                 Игровой процесс включает в себя взаимодействие игроков с игровым миром через размещение и разрушение различных блоков в трёх разных измерениях. </font>
+            </h2>
+        </div>
+        <div class="btn_div1">
+            <button class="animate__animated animate__pulse wow" onclick="print_gamelink()"> <img src="img/creeper.png" style="vertical-align: middle;" width="50px"> <font size="3" class="text_padding">Скачать игру</font> </button>
+            <button class="btn_margin animate__animated animate__pulse wow" data-wow-delay="1s" onclick="print_thx()"> <img src="img/creeper.png" style="vertical-align: middle;" width="50px"> <font size="3" class="text_padding">Донат</font> </button>
+            <button class="animate__animated animate__pulse wow" data-wow-delay="2s" onclick="print_help()"> <img src="img/creeper.png" style="vertical-align: middle;" width="50px"> <font size="3" class="text_padding">Помощь</font> </button>
+        </div>
+    </section>
+    <section>
+    <center>
+        <div class="title_">
+            <font size="6">Что такое Minecraft ?</font>
+        </div>
+        <div class="menu2">
+            <div class="logo_div2">
+                <img src="img/grass_block_logo.jpg" width="600" height="300">
+            </div>
+            <div class="div3">
+                <div class="m3">
+                    <img src="img/grassblock.png" width="50" height="50">
+                    <font size="4" class="text_padding">Классная игра в кубическом мире</font>
+                </div>
+                <div class="m4">
+                    <img src="img/chest.png" width="50" height="50">
+                    <font size="4" class="text_padding">В minecraft здорово проводить время и играть с друзьями</font>
+                </div>
+                <div class="m5">
+                    <img src="img/creeper.png" width="50" height="50">
+                    <font size="4" class="text_padding">Minecraft подходит как взрослым так и детям</font>
+                </div>
+            </div>
+        </div>
+    </center>
+    </section>
+    <section>
+        <div class="title_">
+            <h1 class="animate__animated animate__bounce wow">Какие бывают мобы в игре ?</h1>
+        </div>
+        <div>
+            <div class="menu3">
+                <div class="arrows">
+                    <h1><</h1>
+                </div>
+                <img src="img/enderman.jpg" width="200" height="400">
+                <div class="arrows">
+                    <h1>></h1>
+                </div>
+                <div class="menu4">
+                    <form class="form2">
+                        <label> <h2 class="mob_name">Эндермэн</h2> </label>
+                        <label> <font class="mob_disc">Большой и злой игровой моб в Minecraft. <br>
+                        Его тяжело убить и он умеет <br>
+                        телепортироваться.</font></label>
+                        <div class="btn_div3">
+                            <button class="btn2"><font size="4">Читать подробнее</font></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="f_div">
+            <form class="form1 anima1">
+                <fieldset class="fs1">
+                    <legend>Обратная свзяь</legend>
+                    <div class="font1">
+                        <label> <font size="4">Ваше имя:</font> </label> <br> 
+                    </div>
+                    <input type="text" required class="inp"> <br>
+                    <div class="font1">
+                        <label><font size="4">Ваша фамилия:</font> </label> <br>
+                    </div> 
+                    <input type="text" class="inp"> <br>
+                    <div class="font1">
+                        <label><font size="4">E-mail:</font> </label> <br>
+                    </div> 
+                    <input type="email" required class="inp"> <br>
+                    <div class="font1">
+                        <label> <font size="4">Комментарий:</font> </label>
+                    </div>
+                    <textarea cols="20" rows="3" required class="ta1"></textarea> <br>
+                    <div class="font_num">
+                        <label><font size="4">Телефон:</font> </label> <br>
+                    </div> 
+                    <input type="number" class="inp"> <br>
+                    <div class="btn_div2">
+                        <button class="btn1">Отправить отзыв</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
